@@ -1,0 +1,38 @@
+#appBg{
+    height: 420pz;
+    width: 300;
+    border: 1px solid black;
+    border-radius:5px;
+
+}
+
+#appBg form{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+#appBg input[type=texfield] {
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#appBg input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
